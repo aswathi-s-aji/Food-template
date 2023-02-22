@@ -1,0 +1,92 @@
+/*Author: Aswathi SA
+Date:16/02/2023*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bg_div {
+	background-image: url("../images/background/agency-slider-04.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.ft_color {
+	color: #3c2a21;
+}
+.bg_color {
+	background-color: #fefbe9;
+}
+.bg_div2 {
+	background-image: url("../images/background/restaurant-about-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+}
+.bg_div3 {
+	background-image: url("../images/background/restaurant-menu-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: fit-content;
+}
+.bg_div4 {
+	background-image: url("../images/background/restaurant-chef-01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+.bg_div5 {
+	background-image: url("../images/background/restaurant-chef-01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+.bg_div6 {
+	background-image: linear-gradient(
+			rgba(1, 1, 9, 0.685),
+			rgba(60, 72, 75, 0.783)
+		),
+		url("../images/background/hero-bg9.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+.bg_div7 {
+	background-image: url("../images/background/fitness-about-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+.bg_div8 {
+	background-image: linear-gradient(
+			rgba(6, 6, 6, 0.263),
+			rgba(9, 9, 9, 0.783)
+		),
+		url("../images/background/hero-bg3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+.style {
+	font-family: Brush Script MT;
+	color: orange;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.bg_div {
+		height: fit-content;
+	}
+	.bg_div3 {
+		background-image: none;
+		height: fit-content;
+	}
+	.bg_div7 {
+		background-image: none;
+		height: fit-content;
+	}
+	.bg_div8 {
+		height: 100vh;
+	}
+}
